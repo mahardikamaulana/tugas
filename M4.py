@@ -33,18 +33,19 @@
 # # else:
 # #     print ('Buah', cari, 'TIDAK TERSEDIA')
 
-# #nomor 4
-# daftar_lab = {
-#     "DASPRO" : {
-#         'Praktikum' : 'Algoritma dan Pemrograman',
-#         'Semester' : 2
-#     },
-#     'ERP' : {
-#         'Praktikum' : 'SAP 01 Fundamental',
-#         'Semester' : 1
-#     }
-# }
-# for key, value in daftar_lab.items():
-#     print ("nama lab: ", key)
-#     for key2 in value:
-#         print (key2, ':', value[key2])
+#nomor 4
+daftar_lab = {
+    "DASPRO" : {
+        'Praktikum' : 'Algoritma dan Pemrograman',
+        'Semester' : 2
+    },
+    'ERP' : {
+        'Praktikum' : 'SAP 01 Fundamental',
+        'Semester' : 1
+    }
+}
+for key, value in daftar_lab.items():
+    print ("nama lab: ", key)
+    for key2 in value:
+        print (key2, ':', value[key2])
+
